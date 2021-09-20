@@ -10,6 +10,7 @@ A NextJS with typescript project, for bootstrapping more involved development.  
 
 ```
 cp -R nextjs-bootstrap REPOSITORY
+cd REPOSITORY
 git init
 git remote set-url origin https://github.com/USERNAME/REPOSITORY.git
 git remote -v --to confirm new origin
