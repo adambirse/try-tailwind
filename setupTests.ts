@@ -1,6 +1,4 @@
-/**
- * @jest-environment jsdom
- */
+
 import * as enzyme from 'enzyme';
 import Adapter from 'enzyme-adapter-react-16';
 import { JSDOM } from 'jsdom';
@@ -19,9 +17,6 @@ function copyProps(src, target) {
 
 global.window = window;
 global.document = window.document;
-global.navigator = {
-  userAgent: 'node.js',
-};
 global.requestAnimationFrame = function (callback) {
   return setTimeout(callback, 0);
 };
