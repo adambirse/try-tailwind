@@ -9,6 +9,7 @@ A NextJS with typescript project, for bootstrapping more involved development. I
 ## To clone
 
 ```
+rm -rf nextjs-bootstrap/node_modules
 cp -R nextjs-bootstrap REPOSITORY
 cd REPOSITORY
 git init
