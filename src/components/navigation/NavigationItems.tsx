@@ -9,8 +9,8 @@ export const NavigationItems = () => {
       <ul className="navbar-nav flex pl-0 list-style-none mr-auto">
         <NavigationItem link="Home" href="/" />
         <NavigationItem link="Dashboard" href="/Dashboard" />
-        <NavigationItem link="Project" href="#" />
-        <NavigationItem link="Team" href="#" />
+        <NavigationItem link="Project" href="/Project" />
+        <NavigationItem link="Team" href="/Team" />
         <NavigationItem link="Disabled" href="#" disabled />
       </ul>
     </div>
