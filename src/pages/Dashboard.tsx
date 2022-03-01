@@ -3,11 +3,8 @@ import { MyParagraph } from "../components/MyParagraph";
 
 export default function Page() {
   return (
-    <Layout>
-      <MyParagraph>
-        Some content describing why I like tailwind and why I think it is easy
-        to use for CSS novices like me
-      </MyParagraph>
+    <Layout title="Dashboard">
+      <MyParagraph>My content for the dashboard page</MyParagraph>
     </Layout>
   );
 }

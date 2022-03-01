@@ -7,7 +7,8 @@ export const NavigationItems = () => {
       id="navbarSupportedContent1"
     >
       <ul className="navbar-nav flex pl-0 list-style-none mr-auto">
-        <NavigationItem link="Dashboard" href="#" />
+        <NavigationItem link="Home" href="/" />
+        <NavigationItem link="Dashboard" href="/Dashboard" />
         <NavigationItem link="Project" href="#" />
         <NavigationItem link="Team" href="#" />
         <NavigationItem link="Disabled" href="#" disabled />
