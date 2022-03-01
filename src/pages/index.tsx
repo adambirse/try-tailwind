@@ -1,7 +1,9 @@
+import { MyHeading } from "../components/MyHeading";
+
 export default function Page() {
   return (
     <>
-      <h1 className="text-3xl font-bold underline">Styled with tailwind.</h1>
+      <MyHeading>Styled with tailwind.</MyHeading>
     </>
   );
 }
